@@ -20,4 +20,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./ # Đường dẫn thư mục chứa file HTML
-        server-dir: /public_html/ # Đường dẫn thư mục trên server
+        server-dir: ./ # Đường dẫn thư mục trên server
